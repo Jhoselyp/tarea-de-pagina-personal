@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jhosely Paredes Mendoza</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy Jhosely Paredes Mendoza, una apasionada del desarrollo de software. Disfruto aprendiendo nuevas tecnologías y aplicándolas en proyectos innovadores.</p>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Proyecto 1: Aplicación de To-Do List</li>
+            <li>Proyecto 2: Sitio web de portafolio personal</li>
+            <li>Proyecto 3: Juego interactivo de preguntas y respuestas</li>
+        </ul>
+        <h3>Tecnologías utilizadas</h3>
+        <table bordeer="1">
+            <tr>
+                <th>Proyecto</th>
+                <th>Tecnología</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Aplicación de To-Do List</td>
+                <td>JavaScript</td>
+                <td>Permite organizar tareas de manera interactiva.</td>
+            </tr>
+            <tr>
+                <td>Sitio web de portafolio</td>
+                <td>HTML, CSS</td>
+                <td>Diseño de un sitio web personal.</td>
+            </tr>
+            <tr>
+                <td>Juego de preguntas y respuestas</td>
+                <td>Python</td>
+                <td>Juego basado en consola para aprender.</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico:Jhoselyparedes@example.com</p>
+
+        <h3>Formulario de contacto</h3>
+        <form action="/enviar" method="post">
+            <br>
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label>Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label>Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <input type="submit">Enviar</input>
+            <br>
+        </form>
+    </section>
+</body>
+</html>
